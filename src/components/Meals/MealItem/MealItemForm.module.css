@@ -1,0 +1,28 @@
+.form {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #01847f;
+    border: none;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 8rem;
+}
+
+.form button:hover,
+.form button:active {
+    background-color: #fbd26a;
+    transition: ease-out 0.1s;
+}
+
+.form p {
+    color: red;
+}
