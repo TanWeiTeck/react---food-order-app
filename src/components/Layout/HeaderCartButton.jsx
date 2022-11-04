@@ -16,7 +16,6 @@ const HeaderCartButton = (props) => {
     }`;
 
     useEffect(() => {
-        console.log(items);
         if (items.length === 0) {
             setBtnIsHighlighted(false);
         } else setBtnIsHighlighted(true);
